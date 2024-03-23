@@ -3,4 +3,23 @@
 - ### Empresa de Viajes
 - ### Juego de Cartas
 - ### Sistema de autogestion de Alumnos
-- ### Sistema de supermercado
+- ### Sistema de Supermercado
+    - ABCMs
+        - Usuarios (Simple)
+        - Productos (Simple)
+    - CU NO-ABCM
+        - Por definir
+    - Listados
+        - Productos vendidos [filtros: intervalo de tiempo, categoria] (ordenar por: producto, cantidad)
+        - Usuarios registrados [filtros: el último mes] (ordenar por)
+    - Niveles de acceso
+        - Invitado
+            - Ver productos, agregar al carrito
+        - Usuario
+            - Ver productos, agregar al carrito, comprar productos
+        - Administrador
+            - Ver productos, agregar al carrito, comprar producots, cargar nuevos productos, generar listados
+    - Manejo de errores
+        - Un invitado puede agregar productos al carrito, más no comprarlos, esto genera un error.
+    - Publicación de la aplicación
+        - Por definir
