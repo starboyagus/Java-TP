@@ -3,6 +3,38 @@
 - ### Empresa de Viajes
 - ### Juego de Cartas
 - ### Sistema de autogestion de Alumnos
+- ### Sistema de Entradas Estadio de Futbol
+    - ABCMs
+        - Usuarios (Simple)
+        - Socios (Simple)
+        - VIP (Simple)
+    - CU NO-ABCM
+        - Comprar una entrada?
+    - Listados
+        - Entradas Vendidas [filtros: por partido, por mes] (ordernar por: tribuna, cantidad)
+        - Palcos Vendidos
+        - Usuarios Registrados
+        - Socios Registrados
+        - VIP Registrados
+    - Niveles de Acceso
+        - Invitado
+            - Ver Pagina, informacion
+        - Usuario
+            - Ver Pagina, informacion
+            - Apartado exclusivo de entrevistas, envio de mails con fechas para sacar entradas
+        - Socios
+            - Ver Pagina, informacion
+            - Apartado exclusivo de entrevistas, envio de mails con fechas para sacar entradas 
+            - Pre-Inscripcion a compra de entradas, compra de entradas, eleccion de tribuna, lugar
+        - VIP
+            - Ver Pagina, informacion
+            - Apartado exclusivo de entrevistas, envio de mails con fechas para sacar entradas 
+            - Pre-Inscripcion a compra de entradas, compra de entradas, eleccion de tribuna, lugar
+            - Saltar fila de venta de entrada
+            - Consultar Palcos, comprar palcos
+    - Manejo de errores
+        - No se puede comprar entradas porque no es socio
+
 - ### Sistema de Supermercado
     - ABCMs
         - Usuarios (Simple)
