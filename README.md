@@ -22,6 +22,10 @@ Un usuario puede ser "Invitado", "Administrador" o "Registrado"
 - Administrador: puede realizar los ABMC de las entidades del sistema.
 </div>
 
+## Modelo de Datos
+
+![Modelo de Datos](/Sistema_de_Club_de_Futbol/Modelo%20de%20Datos.png)
+
 ## ABCMs / CRUDs
 - Simple
     - Usuarios
@@ -48,10 +52,6 @@ Un usuario puede ser "Invitado", "Administrador" o "Registrado"
 - ### Complejo
     - Gestion VIP (Registrarse, Volverse VIP, Comprar Palco)
 
-## Modelo de Datos
-
-![Modelo de Datos](/Sistema_de_Club_de_Futbol/Modelo%20de%20Datos.png)
-
 ## Checklist Regularidad
 
 |Requerimiento|2 integrantes|Detalle/Listado de casos incluidos|
@@ -69,7 +69,7 @@ Un usuario puede ser "Invitado", "Administrador" o "Registrado"
 |ABMC|6|Usuario<br>Cancha<br>Paritdo<br>Palco<br>Tribuna<br>Ubicaciones|
 |CU "Complejo"(nivel resumen)|1|Gestion VIP|
 |Listado complejo|1|Usuarios registrados|
-|Nivel de acceso|2|Regulares<br>Socios|
+|Nivel de acceso|2|Registrados<br>Administradores|
 |Manejo de errores|obligatorio|no requiere detalle|
 |requerimiento extra obligatorio|0|
 |publicar el sitio|olbigatorio|no requiere detalle|
