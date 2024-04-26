@@ -16,10 +16,10 @@ Dentro del sistema, existirán usuarios con diferentes permisos, cada uno con di
 Un usuario puede ser "Invitado", "Administrador" o "Registrado"
 - Invitado: puede acceder al sitio web para verlo.
 - Registrados: estos se dividen en tres categorías:
-    - Regulares: pueden comprar entradas y visitar las secciones de noticias y entrevistas
-    - Socios: tienen los beneficios de los Registrados Regulares + acceso a pre-compra de entradas
-    - VIPs: tienen los beneficios de los Registrados Socios + acceso a compra de palcos
-- Administrador: puede realizar los ABMC de las entidades del sistema
+    - Regulares: pueden comprar entradas y visitar las secciones de noticias y entrevistas.
+    - Socios: tienen los beneficios de los Registrados Regulares + acceso a pre-compra de entradas.
+    - VIPs: tienen los beneficios de los Registrados Socios + acceso a compra de palcos.
+- Administrador: puede realizar los ABMC de las entidades del sistema.
 </div>
 
 ## ABCMs / CRUDs
@@ -27,27 +27,24 @@ Un usuario puede ser "Invitado", "Administrador" o "Registrado"
     - Usuarios
         <p>Este puede ser  "Invitado",  "Administrador", "Registrado Regular",   "Registrado Socio" o  "Registrado VIP"</p>
     - Canchas
-    - Partidos
 - Dependiente
     - Palcos
-    - Tribunas
-    - Ubicaciones
+    - Tribunas-Ubicaciones
+    - Partidos
 ## Listados
 - ### Simple
-    -  <b>Disponibilidad de aciones en las canchas</b>
+    -  <b>Listado de partidos futuros</b>
 - ### Complejo
     - <b>Usuarios registrados</b>
-        <p>Filtros: por rango de as</p>
-    - <b>Partidos registrados</b>
-        <p>Filtros: por rango de as, por resultado, por ha, por rival</p>
+        <p>Filtros: por rango de fechas</p>
     - <b>Entradas Vendidas</b>
         <p>Filtros: por partido, rango de fechas, por una, por cancha</p>
     - <b>Palcos Vendidos</b>
-        <p>Filtros: por rango de as, por cancha, por /p>
+        <p>Filtros: por rango de fechas, por cancha, por usuario</p>
 ## Caso de Uso:
 - ### No-ABMC
+    - Crear partido
     - Comprar entrada a partido
-    - Comprar palco
 - ### Complejo
     - Gestion VIP (Registrarse, Volverse VIP, Comprar Palco)
 
